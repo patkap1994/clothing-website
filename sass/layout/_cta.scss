@@ -1,0 +1,35 @@
+.cta {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: url("../img/cta-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5em 1em 15em 1em;
+
+    p:first-child {
+        margin-bottom: 0.4em;
+    }
+}
+
+form {
+    margin-top: 3em;
+    width: 100%;
+
+    input {
+        padding: 0.8em;
+        background: transparent;
+        border: 1px solid $primary-color;
+        margin-right: 1em;
+        width: 75%;
+        max-width: 400px;
+        color: $primary-color;
+
+        &::placeholder {
+            text-transform: uppercase;
+            color: $primary-color;
+        }
+    }
+}

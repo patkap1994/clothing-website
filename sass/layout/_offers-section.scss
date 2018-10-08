@@ -1,0 +1,47 @@
+.offers {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 4em;
+
+    @media screen and (max-width: $medium-screen) {
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    p {
+        font-weight: 300;
+    }
+
+    .offer {
+        width: 50%;
+        margin: 1em;
+        padding: 2em;
+
+        @media screen and (max-width: $medium-screen) {
+            width: 100%;
+            margin: 0;
+        }
+
+        p:nth-child(2) {
+            margin: 0.7em 0;
+        }
+
+        p:nth-child(3) {
+            width: 50%;
+            margin-bottom: 3em;
+        }
+    }
+}
+
+.offer-primary {
+    background: $primary-accent;
+    text-align: center;
+}
+
+.offer-secondary {
+    background: $secondary-accent;
+}

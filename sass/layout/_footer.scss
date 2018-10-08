@@ -1,0 +1,58 @@
+footer {
+    text-align: center;
+    background: $secondary-color;
+    padding: 4em 1em 7em 1em;
+}
+
+.social-icons {
+    margin-bottom: 1em;
+
+    a {
+        color: $primary-color;
+        text-decoration: none;
+        padding: 0.4em 0.5em;
+        border-radius: 50%;
+        margin: 0.3em;
+
+        &.fa-facebook {
+            padding: 0.4em 0.6em;
+            background: #6282C1;
+
+            &:hover {
+                background: darken(#6282C1, 10%);
+            }
+        }
+
+        &.fa-youtube {
+            background: #F15C4C;
+
+            &:hover {
+                background: darken(#F15C4C, 10%);
+            }
+        }
+
+        &.fa-instagram {
+            background: #874D2E;
+
+            &:hover {
+                background: darken(#874D2E, 10%);
+            }
+        }
+
+        &.fa-pinterest {
+            background: #E62E34;
+
+            &:hover {
+                background: darken(#E62E34, 10%);
+            }
+        }
+
+        &.fa-twitter {
+            background: #48BDED;
+
+            &:hover {
+                background: darken(#48BDED, 10%);
+            }
+        }
+    }
+}

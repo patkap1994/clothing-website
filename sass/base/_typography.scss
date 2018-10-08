@@ -1,0 +1,29 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+.font-bold {
+    @include font($primary-color, 900);
+}
+
+.font-bold-dark {
+    @include font($secondary-color, 900);
+}
+
+.font-primary {
+    color: $primary-color;
+}
+
+.font-secondary {
+    color: $secondary-color;
+}
+
+.font-md {
+    font-size: $medium;
+}
+
+.font-lg {
+    font-size: $large;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

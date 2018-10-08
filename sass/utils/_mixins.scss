@@ -1,0 +1,12 @@
+//Delete list and 'a' tags default styles
+@mixin nav-list {
+    list-style-type: none;
+    a {
+        text-decoration: none;
+    }
+}
+
+@mixin font($color, $weight) {
+    color: $color;
+    font-weight: $weight;
+}
