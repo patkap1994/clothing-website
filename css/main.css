@@ -421,62 +421,6 @@ button:-moz-focusring,
   background: #3e95b0;
 }
 
-.slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 90%;
-  max-width: 1300px;
-  margin: 1.5em auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.slider .arrow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-bottom: 2em;
-  cursor: pointer;
-}
-
-.items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  overflow: hidden;
-}
-
-.items .item {
-  display: inline-block;
-  width: 30%;
-  position: relative;
-  margin: 2em;
-}
-
-.items .item img {
-  max-height: 200px;
-  margin: 0 auto;
-  margin-bottom: 3em;
-}
-
-.items .item p:nth-child(3) {
-  font-weight: 300;
-}
-
-.items .item a {
-  display: inline-block;
-  color: #392D3B;
-  margin-top: 1em;
-}
-
 @media screen and (max-width: 1020px) {
   header {
     overflow: hidden;
@@ -533,6 +477,7 @@ button:-moz-focusring,
     width: 400px;
     height: 85vh;
     min-height: 400px;
+    max-height: 600px;
     right: -700px;
     top: 50px;
     background: rgba(57, 45, 59, 0.99);
@@ -671,6 +616,7 @@ header {
           flex-direction: column;
   height: 100vh;
   min-height: 500px;
+  max-height: 700px;
   width: 100%;
   background: url("../img/bg-image.png");
   background-repeat: no-repeat;
